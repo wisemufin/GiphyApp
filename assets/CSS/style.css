@@ -1,0 +1,47 @@
+/* Reset Overrides  */
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1.33em;
+}
+
+h5 {
+  font-size: .83em;
+}
+
+h6 {
+  font-size: .67em;
+}
+
+p {
+  display: block;
+  margin: 1em 0em;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER STYLING */
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #00CAFB;
+}
+
+.header h1 {
+  padding: 30px;
+  color: white;
+}
