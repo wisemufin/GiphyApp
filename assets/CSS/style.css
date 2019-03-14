@@ -39,9 +39,45 @@ body {
   justify-content: center;
   width: 100%;
   background-color: #00CAFB;
+  /* margin-bottom: 20px; */
 }
 
 .header h1 {
   padding: 30px;
   color: white;
+}
+
+/* Form Styling */
+.form-container {
+  background-color: #9C34FF;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px 10px;
+}
+
+.form label {
+  margin: 5px 0;
+  color: white;
+}
+
+.form input {
+  height: 16px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Button Container Styling */
+#button-dumpster {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 90%;
 }

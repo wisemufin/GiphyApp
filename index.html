@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="assets/CSS/reset.css">
     <link rel="stylesheet" href="assets/CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>GIPHY App</title>
   </head>
   <body>
@@ -13,8 +14,16 @@
       <div class="header">
         <h1>GIPHY APP</h1>
       </div>
-      <!-- Where the buttons will generate -->
-      <div class="button-dumpster"></div>
+      <!-- Container for the form that will create the button text -->
+      <div class="form-container">
+        <div class="form">
+          <label for="gif-input">Add a Celebrity GIF</label>
+          <input type="text" id="gif-input">
+        </div>
+      </div>
+      <!-- Area will the buttons will be generated -->
+      <div id="button-dumpster"></div>
     </div>
+    <script type="text/javascript" src="assets/JavaScript/app.js"></script>
   </body>
 </html>
