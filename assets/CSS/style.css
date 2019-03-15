@@ -123,6 +123,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #gif-container div:nth-child(odd) {
