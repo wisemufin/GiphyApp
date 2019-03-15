@@ -46,10 +46,12 @@ $(document).on("click", ".celebrity-btn", function() {
     var gifDiv = $("<div>");
     //Create image tag for the gif
     var celebrityImage = $("<img>");
-
     celebrityImage.attr("src", results[i].images.fixed_width.url);
 
+    var rating = $("<p>").text("Rating: " + results[i].rating);
+
     gifDiv.append(celebrityImage);
+    gifDiv.append(rating);
     $("#gif-container").prepend(gifDiv);
     }
   });
