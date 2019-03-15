@@ -66,18 +66,72 @@ body {
   color: white;
 }
 
-.form input {
+#gif-input {
   height: 16px;
   border: 0px;
   border-radius: 5px;
   padding: 5px;
 }
 
+#add-gif {
+  width: 150px;
+  margin-top: 5px;
+  border: 0;
+  background-color: #00EB8D;
+  padding: 10px 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #242666;
+  cursor: pointer;
+}
+
+#add-gif:hover {
+  background-color: #00FF99;
+}
+
 /* Button Container Styling */
 #button-dumpster {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0 auto;
   flex-wrap: wrap;
   width: 90%;
+  margin-bottom: 30px;
+}
+
+#button-dumpster button {
+  width: 25%;
+  border: 0;
+  background-color: #00CAFB;
+  padding: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* GIF Container Styling */
+#gif-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#gif-container div:nth-child(odd) {
+  background-color: #FF6565;
+}
+
+#gif-container div:nth-child(even) {
+  background-color: #F9ED5B;
+}
+
+#gif-container div {
+  margin: 10px;
+  padding: 10px;
 }
