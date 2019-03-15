@@ -45,6 +45,8 @@ body {
 .header h1 {
   padding: 30px;
   color: white;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
 }
 
 /* Form Styling */
